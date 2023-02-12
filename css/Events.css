@@ -1,0 +1,291 @@
+body{
+  background-image: url(../Pictures/Design_4.png);
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+
+  height: 3000px;
+}
+
+.event-img{
+  height: 970px;
+  width: 100%;
+}
+
+.main-heading{
+  color: rgb(205, 225, 255);
+  position: absolute;
+  top: 750px;
+  left: 100px;
+
+  font-size: 120px;
+  font-weight: bold;
+  font-family: Poppins;
+
+}
+
+/* LAUCHES */
+
+.launches-div{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.launches-text-div{
+  width: 950px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*MISSIONS*/
+
+.missions-div{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission-text-div{
+
+  width: 950px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 0.1px;
+}
+
+/*  NUETRAL */
+
+.sub-heading1{
+  color: white;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: bold;
+
+  margin-top: 20px;
+}
+
+.content-img{
+  height: 600px;
+  width: 950px;
+
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1px;
+
+  transition: border-color 0.75s;
+}
+
+.content-img:hover{
+  border-color: rgb(0, 102, 205)
+}
+
+.sub-text1{
+  color: white;
+  font-family: Space mono;
+  font-size: 18px;
+
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+
+/*  RESPONSIVE DESIGN   RESPONSIVE DESIGN   RESPONSIVE DESIGN    RESPONSIVE DESIGN    RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 568px){
+  .event-img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .main-heading{
+    color: rgb(205, 225, 255);
+    position: absolute;
+    top: 180px;
+    left: 30px;
+  
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Poppins;
+  
+  }
+
+  /* LAUCHES */
+
+.launches-div{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.launches-text-div{
+  width: 80%;
+
+  margin-left: 45px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*MISSIONS*/
+
+.missions-div{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-text-div{
+
+  width: 80%;
+
+  margin-left: 45px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-bottom-style: none;
+  border-bottom-color: white;
+  border-bottom-width: 0.1px;
+}
+
+/*  NUETRAL */
+
+.sub-heading1{
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+
+  margin-top: 20px;
+}
+
+.content-img{
+  height: 100%;
+  width: 99%;
+
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1px;
+}
+
+.sub-text1{
+  color: white;
+  font-family: Space mono;
+  font-size: 11px;
+
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+}
+
+@media only screen and (max-width: 1468px) and (min-width: 569px) {
+  .event-img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .main-heading{
+    color: rgb(205, 225, 255);
+    position: absolute;
+    top: 400px;
+    left: 30px;
+  
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Poppins;
+  
+  }
+
+  /* LAUCHES */
+
+.launches-div{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.launches-text-div{
+  width: 80%;
+
+  margin-left: 95px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*MISSIONS*/
+
+.missions-div{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-text-div{
+
+  width: 80%;
+
+  margin-left: 95px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-bottom-style: none;
+  border-bottom-color: white;
+  border-bottom-width: 0.1px;
+}
+
+/*  NUETRAL */
+
+.sub-heading1{
+  color: white;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: bold;
+
+  margin-top: 20px;
+}
+
+.content-img{
+  height: 100%;
+  width: 99%;
+
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1px;
+}
+
+.sub-text1{
+  color: white;
+  font-family: Space mono;
+  font-size: 20px;
+
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+}

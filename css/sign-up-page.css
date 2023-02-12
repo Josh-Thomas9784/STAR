@@ -1,0 +1,377 @@
+body{
+  height: 900px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sign-up-page-content{
+  border: solid white 1px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 750px;
+  width: 365px;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*picture part*/
+
+.sign-up-page-picture{
+  height: 961px;
+  width: 1900px;
+}
+
+.sign-up-picture-div{
+  display: flex;
+}
+
+/*button and text part*/
+
+.sign-up-page-text{
+
+  margin-bottom: 20px;
+  font-family: Alexandria;
+  font-weight: bold;
+  font-size: 25px;
+
+  color: white
+  
+}
+
+.sign-up-page-button{
+  margin-bottom: 10px;
+
+  width: 350px;
+  font-size: 20px;
+  font-family: Alexandria;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+
+  border-color: white;
+  border-width: 0.2px;
+  border-radius: 5px;
+  background-color: transparent;
+
+  transition: background-color 0.75s;
+
+}
+
+.sign-up-page-button:hover{
+  background-color: rgb(66, 148, 255);
+  
+}
+
+.textbox{
+  margin-bottom: 20px;
+
+  width: 345px;
+  height: 30px;
+
+  border-width: 0.5px;
+  border-radius: 5px;
+
+  font-family: Alexandria;
+  border-color: white;
+
+}
+
+.sign-up-subtext{
+  color: white;
+  font-size: 20px;
+  font-family: Alexandria;
+  font-weight: bold;
+
+}
+
+.log-in-subtext{
+  position: absolute;
+  top: 480px;
+  left: 845px;
+  font-size: 25px;
+  font-family: Alexandria;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+.log-in-button{
+  position: absolute;
+  top: 560px;
+  left: 780px;
+  
+
+  width: 350px;
+  font-size: 20px;
+  font-family: Alexandria;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgb(66, 148, 255);
+
+  transition: background-color 0.75s;
+
+}
+
+.log-in-button:hover{
+  background-color: rgb(42, 132, 250);;
+}
+
+
+
+/*  RESPONSIVE DESIGN   RESPONSIVE DESIGN   RESPONSIVE DESIGN    RESPONSIVE DESIGN    RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 668px){
+  .sign-up-page-content{
+    border: solid white 1px;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+  
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 265px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /*picture part*/
+  
+  .sign-up-page-picture{
+    height: 880px;
+    width: 100%;
+  }
+
+  body{
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sign-up-page-text{
+
+    margin-bottom: 20px;
+    font-family: Alexandria;
+    font-weight: bold;
+    font-size: 20px;
+  
+    color: white
+    
+  }
+  
+  .sign-up-page-button{
+    margin-bottom: 10px;
+  
+    width: 250px;
+    font-size: 20px;
+    font-family: Alexandria;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+  
+    border-color: white;
+    border-width: 0.2px;
+    border-radius: 5px;
+    background-color: transparent;
+  
+    transition: background-color 0.75s;
+  
+  }
+
+  .log-in-subtext{
+    position: absolute;
+    top: 500px;
+    left: 105px;
+    font-size: 20px;
+    font-family: Alexandria;
+    font-weight: bold;
+    color: white;
+  
+  }
+  
+  
+  .log-in-button{
+    position: absolute;
+    top: 580px;
+    left: 60px;
+    
+  
+    width: 280px;
+    font-size: 20px;
+    font-family: Alexandria;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+  
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(66, 148, 255);
+  
+    transition: background-color 0.75s;
+  
+  }
+
+  .textbox{
+    margin-bottom: 20px;
+  
+    width: 245px;
+    height: 30px;
+  
+    border-width: 0.5px;
+    border-radius: 5px;
+  
+    font-family: Alexandria;
+    border-color: white;
+  
+  }
+
+  .sign-up-subtext{
+    color: white;
+    font-size: 18px;
+    font-family: Alexandria;
+    font-weight: bold;
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 1468px) and (min-width: 669px) {
+  .sign-up-page-content{
+    border: solid white 1px;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+  
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    width: 365px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /*picture part*/
+  
+  .sign-up-page-picture{
+    height: 1200px;
+    width: 100%;
+  }
+
+  body{
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sign-up-page-text{
+
+    margin-bottom: 20px;
+    font-family: Alexandria;
+    font-weight: bold;
+    font-size: 25px;
+  
+    color: white
+    
+  }
+  
+  .sign-up-page-button{
+    margin-bottom: 10px;
+  
+    width: 350px;
+    font-size: 25px;
+    font-family: Alexandria;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+  
+    border-color: white;
+    border-width: 0.2px;
+    border-radius: 5px;
+    background-color: transparent;
+  
+    transition: background-color 0.75s;
+  
+  }
+
+  .log-in-subtext{
+    position: absolute;
+    top: 600px;
+    left: 285px;
+    font-size: 25px;
+    font-family: Alexandria;
+    font-weight: bold;
+    color: white;
+  
+  }
+  
+  
+  .log-in-button{
+    position: absolute;
+    top: 680px;
+    left: 210px;
+    
+  
+    width: 380px;
+    font-size: 25px;
+    font-family: Alexandria;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+  
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(66, 148, 255);
+  
+    transition: background-color 0.75s;
+  
+  }
+
+  .textbox{
+    margin-bottom: 20px;
+  
+    width: 345px;
+    height: 30px;
+  
+    border-width: 0.5px;
+    border-radius: 5px;
+  
+    font-family: Alexandria;
+    border-color: white;
+  
+  }
+
+  .sign-up-subtext{
+    color: white;
+    font-size: 20px;
+    font-family: Alexandria;
+    font-weight: bold;
+  
+  }
+
+
+}
