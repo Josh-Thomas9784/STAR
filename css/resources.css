@@ -1,0 +1,654 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+  background-image: url(../Pictures/Design_4.png);
+  height: 3000px;
+}
+
+.resource-heading{
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  font-family: Poppins;
+  font-weight: bold;
+
+
+  margin-top: 250px;
+  margin-left: 760px;
+
+  text-shadow: 4px 4px 4px #0059ff;
+
+  z-index: 50;
+}
+
+.resource-picture{
+  height: 600px;
+
+  background-image: linear-gradient(to left, rgb(0, 59, 148), rgb(23, 26, 70));
+ 
+}
+
+/* sub headings */
+
+.sub-heading1{
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 330px;
+
+  font-family: Alexandria;
+  font-size: 40px;
+  font-weight: bold;
+
+  background: 
+  linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+  linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+
+}
+
+.sub-heading1:hover,
+.sub-heading:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+  cursor: pointer;
+}
+
+.sub-heading2{
+  color: white;
+  position: absolute;
+  top: 400px;
+  left :855px;
+
+  font-family: Alexandria;
+  font-size: 40px;
+  font-weight: bold;
+
+  background: 
+  linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+  linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+
+.sub-heading2:hover,
+.sub-heading:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+  cursor: pointer;
+}
+
+.sub-heading3{
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 1150px;
+
+  font-family: Alexandria;
+  font-size: 40px;
+  font-weight: bold;
+
+  background: 
+  linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+  linear-gradient(to right, rgb(132, 0, 255),  rgb(120, 0, 200));
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+
+.sub-heading3:hover,
+.sub-heading:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+  cursor: pointer;
+}
+
+.sub-heading-div{
+  display: flex;
+  
+}
+
+
+/*site pics */
+
+.link-text-div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.first-resource{
+  display: flex;
+  justify-content: center;
+  width: 1500px;
+
+  margin-bottom: 200px;
+  margin-left: 250px;
+}
+
+.text-div{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.resource-text{
+  color: white;
+  font-size: 25px;
+  font-family: space mono;
+  
+}
+
+/*the pictures */
+
+.site-pic{
+  height: 300px;
+
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  padding: 40px;
+
+  transition: border-color 1s;
+} 
+
+.site-pic:hover{
+  border-color: rgb(0, 102, 255);
+  cursor: pointer;
+}
+
+.site-pic2{
+  height: 350px;
+
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  padding: 20px;
+
+  transition: border-color 1s;
+}
+
+.site-pic2:hover{
+  border-color: rgb(0, 102, 255);
+  cursor: pointer;
+}
+
+.site-pic3{
+  height: 180px;
+
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  padding: 50px;
+
+  transition: border-color 1s;
+}
+
+.site-pic3:hover{
+  border-color: rgb(0, 102, 255);
+  cursor: pointer;
+}
+
+
+
+/*  RESPONSIVE DESIGN   RESPONSIVE DESIGN   RESPONSIVE DESIGN    RESPONSIVE DESIGN    RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 668px){
+  .resource-heading{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+  
+  
+    margin-top: 150px;
+    margin-left: 100px;
+  
+    text-shadow: 4px 4px 4px #0059ff;
+  
+    z-index: 50;
+  }
+  
+  .resource-picture{
+    height: 600px;
+    width: 100%;
+  
+    background-image: linear-gradient(to left, rgb(0, 59, 148), rgb(23, 26, 70));
+   
+  }
+
+  .sub-heading1{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+  
+    font-family: Alexandria;
+    font-size: 20px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  
+  }
+
+  .sub-heading2{
+    color: white;
+    position: absolute;
+    top: 325px;
+    left :150px;
+  
+    font-family: Alexandria;
+    font-size: 20px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  
+  .sub-heading3{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 110px;
+  
+    font-family: Alexandria;
+    font-size: 20px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(120, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  .link-text-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .first-resource{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+  
+    margin-bottom: 200px;
+    margin-left: 0px;
+  }
+  
+  .text-div{
+    display: flex;
+    align-items: none;
+    margin-left: 120px;
+  }
+  
+  .resource-text{
+    color: white;
+    font-size: 20px;
+    font-family: space mono;
+    
+  }
+
+  .site-pic{
+    height: 150px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 40px;
+  
+    transition: border-color 1s;
+  } 
+
+  .site-pic2{
+    height: 190px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 20px;
+  
+    transition: border-color 1s;
+  }
+  
+  
+  .site-pic3{
+    height: 90px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 50px;
+  
+    transition: border-color 1s;
+  }
+  
+}
+
+@media only screen and (max-width: 1368px) and (min-width: 669px) {
+  .resource-heading{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: bold;
+  
+  
+    margin-top: 150px;
+    margin-left: 260px;
+  
+    text-shadow: 4px 4px 4px #0059ff;
+  
+    z-index: 50;
+  }
+  
+  .resource-picture{
+    height: 600px;
+    width: 100%;
+  
+    background-image: linear-gradient(to left, rgb(0, 59, 148), rgb(23, 26, 70));
+   
+  }
+
+  .sub-heading1{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 270px;
+  
+    font-family: Alexandria;
+    font-size: 25px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  
+  }
+
+  .sub-heading2{
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 350px;
+  
+    font-family: Alexandria;
+    font-size: 25px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  
+  .sub-heading3{
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+  
+    font-family: Alexandria;
+    font-size: 25px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(120, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  .link-text-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .first-resource{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+  
+    margin-bottom: 200px;
+    margin-left: 0px;
+  }
+  
+  .text-div{
+    display: flex;
+    align-items: none;
+    margin-left: 120px;
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  .resource-text{
+    color: white;
+    font-size: 25px;
+    font-family: space mono;
+    
+  }
+
+  .site-pic{
+    height: 220px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 40px;
+  
+    transition: border-color 1s;
+    margin-left: 600px;
+  } 
+
+  .site-pic2{
+    height: 290px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 20px;
+  
+    transition: border-color 1s;
+    margin-left: 600px;
+  }
+  
+  
+  .site-pic3{
+    height: 150px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 50px;
+  
+    transition: border-color 1s;
+    margin-left: 600px;
+  }
+  
+}
+
+@media only screen and (max-width: 1668px) and (min-width: 1369px) {
+  .resource-heading{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    font-family: Poppins;
+    font-weight: bold;
+  
+  
+    margin-top: 150px;
+    margin-left: 500px;
+  
+    text-shadow: 4px 4px 4px #0059ff;
+  
+    z-index: 50;
+  }
+  
+  .resource-picture{
+    height: 600px;
+    width: 100%;
+  
+    background-image: linear-gradient(to left, rgb(0, 59, 148), rgb(23, 26, 70));
+   
+  }
+
+  .sub-heading1{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 520px;
+  
+    font-family: Alexandria;
+    font-size: 35px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  
+  }
+
+  .sub-heading2{
+    color: white;
+    position: absolute;
+    top: 305px;
+    left: 600px;
+  
+    font-family: Alexandria;
+    font-size: 35px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(77, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  
+  .sub-heading3{
+    color: white;
+    position: absolute;
+    top: 480px;
+    left: 540px;
+  
+    font-family: Alexandria;
+    font-size: 35px;
+    font-weight: bold;
+  
+    background: 
+    linear-gradient(to left, rgb(32, 85, 128), rgb(43, 63, 94)),
+    linear-gradient(to right, rgb(132, 0, 255),  rgb(120, 0, 200));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  }
+
+  .link-text-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .first-resource{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+  
+    margin-bottom: 200px;
+    margin-left: 0px;
+  }
+  
+  .text-div{
+    display: flex;
+    align-items: none;
+    margin-left: 120px;
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  .resource-text{
+    color: white;
+    font-size: 35px;
+    font-family: space mono;
+    
+  }
+
+  .site-pic{
+    height: 320px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 40px;
+  
+    transition: border-color 1s;
+    margin-left: 800px;
+  } 
+
+  .site-pic2{
+    height: 390px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 20px;
+  
+    transition: border-color 1s;
+    margin-left: 800px;
+  }
+  
+  
+  .site-pic3{
+    height: 210px;
+  
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    padding: 50px;
+  
+    transition: border-color 1s;
+    margin-left: 800px;
+  }
+  
+}
